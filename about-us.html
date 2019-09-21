@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Notable|Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+    <title>About Us</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="nav-bar">
+            <ul class="nav-list">
+                <li class="welcome"></li>
+                <li class="nav-list-item"><a href=index.html>Home Page</a></li>
+                <li class="nav-list-item"><a href=about-us.html>About Us</a></li>
+                <li class="nav-list-item"><a href=quiz.html>Our Trivia Quiz</a></li>
+                <li class="nav-list-item"><a href=review-us.html>Review Us</a></li>
+            </ul>
+        </div>
+        <div class="about-us-background">
+            <div class="about-us-text-container">
+                <h1 class="about-us-title"><b>About Us!</b></h1>
+                <p class="about-us-paragraph text-left">GTCQuiz stands for "Guess The Country Quiz". This website offers a small quiz which asks about the capitals of various countries around the world. The purpose of this site is to help people improve their geographical knowledge as much
+                    as possible. I hope you like my work!</p>
+            </div>
+            <div class="about-us-video-container">
+                <div class="video-container">
+                    <video src="files/world-capitals-song.mp4"></video>
+                    <div class="control-nav">
+                        <div class="progress-field">
+                            <div class="progress-field-update"></div>
+                        </div>
+                        <div class="button-control-nav">
+                            <div class="left-part">
+                                <div class="left-part-inner">
+                                    <button id="play-button" class="button-design">
+                                        <i class="fa fa-play"></i>
+                                    </button>
+                                    <button data-skip="-10" class="button-design">
+                                        <i class="fa fa-angle-double-left">10</i>
+                                    </button>
+                                    <button data-skip="10" class="button-design">
+                                        <i class="fa fa-angle-double-right">10</i>
+                                    </button>
+                                    <button id="volume-button" class="button-design">
+                                        <i class="fa fa-volume-up"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="right-part">
+                                <div class="volume-controller">
+                                    <div class="volume-controller-bar">
+                                    </div>
+                                </div>
+                                <div class="right-part-inner">
+                                    <div class="time-container">
+                                        <span id="current-time"><b>00:00</b></span>
+                                        <span id="total-time"></span>
+                                    </div>
+                                    <button id="full-screen-button" class="button-design">
+                                         <i class="fa fa-window-maximize"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
